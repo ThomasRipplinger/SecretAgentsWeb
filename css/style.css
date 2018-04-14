@@ -1,13 +1,33 @@
 
+html {
+    font-size: 18px;
+    font-family: Helvetica;
+}
+
 body {
     color: whitesmoke; 
 }
 
-header, .titlebox  {
-    margin-left: 200px;
-    margin-top: 20px;
-    margin-bottom: 20px;
+header  {
+    display: flex;
+    justify-content: center;
+    width: 100%;
     background-color: black;
+}
+
+header span {
+    margin: 0.66rem 0 0.66rem 0;
+}
+
+header img {
+    height: 1.5rem;
+    margin: 0 1rem 0 0.5rem;
+}
+
+.sitecontainer {
+    display: flex;
+    align-items: center;
+    width: 960px;
 }
 
 .title {
@@ -16,7 +36,11 @@ header, .titlebox  {
     background-image: url("../resources/moto.jpeg");
     background-size: cover;
     width: 100%;
-    height: 500px;
+    height: 25rem;
+}
+
+.titlebox {
+    background-color: black;
 }
 
 .menu, .menuitems, .gadgets {
