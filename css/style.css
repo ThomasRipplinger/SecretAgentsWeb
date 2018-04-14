@@ -1,0 +1,71 @@
+
+body {
+    color: whitesmoke; 
+}
+
+header, .titlebox  {
+    margin-left: 200px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    background-color: black;
+}
+
+.title {
+    display: flex;
+    align-items: center;
+    background-image: url("../resources/moto.jpeg");
+    background-size: cover;
+    width: 100%;
+    height: 500px;
+}
+
+.menu, .menuitems, .gadgets {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 50px;
+}
+
+.menu {
+    width: 100%;
+    height: 200px;
+    background-color: red;
+}
+
+.gadgets {
+    display: flex;
+    width: 150px;
+    height: 150px;
+    background-size: cover;
+}
+
+.gadget p {
+    text-align: center;
+    margin-top: 15px;
+    margin-bottom: 15px;
+} 
+.gadgets .n1 {
+    background-image: url("../resources/pen.png")
+}
+
+.gadgets .n2 {
+    background-image: url("../resources/watch.png")
+}
+
+.gadgets .n1 {
+    background-image: url("../resources/glasses.png")
+}
+
+.contactitem {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.footer {
+    width: 100%;
+    height: 200px;
+    display: flex;
+    align-items: center;
+    margin-left: 200px;
+}
